@@ -1,0 +1,89 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Abril Fatface', cursive;
+ 
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-image: url(./index.new.jpg);
+  background-size: cover;
+  image-orientation: inherit;
+}
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .nav ul li a:hover{
+    color: hwb(0 4% 4%);
+  }
+  
+  .containerlogout {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: rgba(8, 21, 29, 0.73);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    
+  
+  }
+  
+  .logout {
+    font-size: 24px;
+    margin-top: 0;
+    color: hsl(0, 25%, 98%);
+  }
+  
+  .sentence {
+    font-size: 18px;
+    margin-top: 20px;
+    color: hsl(0, 25%, 98%);
+  }
+  
+  .buttoncon {
+    margin-top: 20px;
+  }
+  
+  .buttonlogout {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .buttonlogout:hover {
+    background-color: #23527c;
+  }
+  

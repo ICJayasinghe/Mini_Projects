@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Abril Fatface', cursive;
+ 
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-image: url(./index.new.jpg);
+  background-size: cover;
+  image-orientation: inherit;
+}
+
+/* Header styles */
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.nav ul li a:hover{
+  color: hwb(0 4% 4%);
+}
+
+h1 {
+  color: #00003c;
+  text-align: center;
+  padding-top: 50px;
+  /*font-family: 'Abril Fatface';*/
+  letter-spacing: 4px;
+  font-size: 50px;
+  font-weight: 1500;
+}
+
+#searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Added this line to horizontally center the search bar */
+  margin-top: 180px; /* Added this line to create space between header and search bar */
+  animation: slideInUp 1s ease-in-out; /* Added animation */
+}
+
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#searchInput {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc; /* Added border style */
+  border-radius: 10px; /* Added border radius */
+  width: 500px;
+  animation: fadeIn 1s ease-in-out; /* Added animation */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+button[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0793e4;
+  color: #050505;
+  border: 2px solid #0793e4;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Added transition */
+  width: 100px;
+}
+

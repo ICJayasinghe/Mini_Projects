@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Services</title>
+  <link rel="stylesheet" type="text/css" href="Logout.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="search.html">Home</a></li>
+        <!--<li><a href="Services.html">Services</a></li>-->
+        <li><a href="Doctors.html">Doctors</a></li>
+        <!--<li><a href="Contact.html">Contact</a></li>-->
+        <li><a href="Logout.html">Logout</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="containerlogout">
+    <h1 class="logout">Logout</h1>
+    <p class="sentence">Are you sure you want to logout?</p>
+    <div class="buttoncon">
+      <form id="logoutForm" action="login.html">
+        <button type="submit" class="buttonlogout">Yes</button>
+        <button type="button" onclick="cancelLogout()" class="buttonlogout">No</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="Logout.js"></script>
+</body>
+
+
+</html>
